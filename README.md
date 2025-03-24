@@ -55,6 +55,8 @@ Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat
     ```
    https://ariscapramalistyo05.github.io/ToDoList_Simpel/
    ```
+2. Untuk hosting statis, akses melalui GitHub Pages di [ToDoList_Simpel](https://ariscapramalistyo05.github.io/ToDoList_Simpel/).
+
 
 ## Dibuat Oleh
 [AriscaPramalistyo05](https://github.com/AriscaPramalistyo05)
