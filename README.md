@@ -49,5 +49,12 @@ Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat
 - Pengaturan tanggal todo
 - *(Keterbatasan: data hilang saat di-refresh)*
 
+## Lihat Proyek
+
+1. Buka browser Anda dan akses :
+    ```
+   https://ariscapramalistyo05.github.io/ToDoList_Simpel/
+   ```
+
 ## Dibuat Oleh
 [AriscaPramalistyo05](https://github.com/AriscaPramalistyo05)
