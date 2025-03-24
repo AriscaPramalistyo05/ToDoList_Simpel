@@ -2,6 +2,11 @@
 
 Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat menggunakan HTML, CSS, dan JavaScript.
 
+## Versi Terbaru (v1.1.0)
+- Menambahkan fitur penyimpanan data menggunakan localStorage
+- Data tidak akan hilang saat browser di-refresh
+- Optimasi performa aplikasi
+
 ## Fitur
 
 - Menambah tugas baru
@@ -9,6 +14,7 @@ Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat
 - Menandai tugas selesai
 - Membatalkan tugas selesai
 - Menghapus tugas
+- Penyimpanan data permanen di browser (mulai v1.1.0)
 
 ## Cara Menggunakan
 
@@ -24,6 +30,20 @@ Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat
 - HTML
 - CSS
 - JavaScript
+- Web Storage API (localStorage)
 
-## Kekurangan 
-Belum bisa menyimpan data, ketika di refresh browsernya data akan hilang
+## Riwayat Versi
+
+### v1.1.0
+- Menambahkan fitur localStorage
+- Data tersimpan permanen di browser
+- Data tidak hilang saat halaman di-refresh
+
+### v1.0.0
+- Fitur dasar todo list
+- Menambah, menandai selesai, dan menghapus todo
+- Pengaturan tanggal todo
+- *(Keterbatasan: data hilang saat di-refresh)*
+
+## Dibuat Oleh
+[AriscaPramalistyo05](https://github.com/AriscaPramalistyo05)
