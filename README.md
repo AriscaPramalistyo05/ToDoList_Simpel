@@ -2,9 +2,8 @@
 
 Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat menggunakan HTML, CSS, dan JavaScript.
 
-## Versi Terbaru (v1.2.0)
-- Menambahkan fitur simpan data setelah reload browser
-- Perbaikan kekurangan sebelumnya
+## Versi Terbaru (v1.2.1)
+- Menambahkan fitur pesan pemberitahuan dengan sweetalert
 
 ## Fitur
 
@@ -33,9 +32,11 @@ Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat
 
 ## Riwayat Versi
 
+### v1.2.1
+- Daftar perubahan di versi 1.2.1
+
 ### v1.2.0
-- Daftar perubahan di versi 1.2.0
-- Fitur baru yang ditambahkan
+- Fitur menyimpan data setelah reload browser
 - Bug yang diperbaiki
 
 ### v1.1.0
