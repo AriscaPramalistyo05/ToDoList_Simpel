@@ -2,9 +2,9 @@
 
 Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat menggunakan HTML, CSS, dan JavaScript.
 
-## Versi Terbaru (v1.1.0)
-- Menambahkan fitur penyimpanan data menggunakan localStorage
-- Optimasi performa aplikasi
+## Versi Terbaru (v1.2.0)
+- Menambahkan fitur simpan data setelah reload browser
+- Perbaikan kekurangan sebelumnya
 
 ## Fitur
 
@@ -32,6 +32,11 @@ Aplikasi sederhana untuk mencatat dan mengelola daftar tugas sehari-hari. Dibuat
 - Web Storage API (localStorage)
 
 ## Riwayat Versi
+
+### v1.2.0
+- Daftar perubahan di versi 1.2.0
+- Fitur baru yang ditambahkan
+- Bug yang diperbaiki
 
 ### v1.1.0
 - Menambahkan fitur localStorage
