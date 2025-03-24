@@ -31,6 +31,7 @@ function addTodo() {
     
     document.dispatchEvent(new Event(RENDER_EVENT));
     saveData();
+    showSweetAlert('Todo berhasil ditambahkan!');
 }
 
 /**
@@ -144,6 +145,7 @@ function addTaskToCompleted(todoId) {
     todoTarget.isCompleted = true;
     document.dispatchEvent(new Event(RENDER_EVENT));
     saveData();
+    showSweetAlert('Todo selesai!', 'info');
 }
 
 /**
@@ -171,6 +173,7 @@ function undoTaskFromCompleted(todoId) {
     todoTarget.isCompleted = false;
     document.dispatchEvent(new Event(RENDER_EVENT));
     saveData();
+    showSweetAlert('Todo dikembalikan!', 'info');
 }
 
 /**
@@ -184,6 +187,7 @@ function removeTaskFromCompleted(todoId) {
     todos.splice(todoIndex, 1);
     document.dispatchEvent(new Event(RENDER_EVENT));
     saveData();
+    showSweetAlert('Todo dihapus!', 'warning');
 }
 
 /**
@@ -243,6 +247,31 @@ function loadDataFromStorage() {
    
     document.dispatchEvent(new Event(RENDER_EVENT));
   }
+
+// Fungsi untuk menampilkan toast dengan SweetAlert2
+function showSweetAlert(message, type = 'success') {
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'bottom-end',
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    });
+
+    Toast.fire({
+        icon: type,
+        title: message
+    });
+}
+
+// Modifikasi event listener
+document.addEventListener(SAVED_EVENT, function() {
+    showSweetAlert('Data berhasil disimpan!');
+});
 
   
   
